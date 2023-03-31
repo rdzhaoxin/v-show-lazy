@@ -15,8 +15,8 @@
       "require": "./dist/v-show-lazy.cjs"
     }
   },
+  "typings": "./dist/types/global∂.d.ts",
   "scripts": {
-    "dts": "vue-tsc --declaration --emitDeclarationOnly --declarationDir ./",
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"

@@ -26,6 +26,9 @@
     }
   },
   "typings": "./dist/types/global∂.d.ts",
+  "files": [
+    "./dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",

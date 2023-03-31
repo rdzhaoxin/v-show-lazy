@@ -1,8 +1,18 @@
 {
   "name": "v-show-lazy",
-  "private": true,
   "version": "0.0.0",
+  "description": "v-show-lazy for vue",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdzhaoxin/v-show-lazy.git"
+  },
+  "author": "Lakindu Hewawasam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rdzhaoxin/v-show-lazy/issues"
+  },
+  "homepage": "https://github.com/rdzhaoxin/v-show-lazy",
   "main": "./dist/v-show-lazy.cjs",
   "module": "./dist/v-show-lazy.js",
   "exports": {

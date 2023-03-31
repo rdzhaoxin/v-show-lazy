@@ -25,13 +25,14 @@
       "require": "./dist/v-show-lazy.cjs"
     }
   },
-  "typings": "./dist/types/global∂.d.ts",
+  "typings": "./dist/types/global.d.ts",
   "files": [
     "./dist"
   ],
   "scripts": {
     "dev": "vite",
-    "build": "vue-tsc && vite build",
+    "dts": "vue-tsc src/index.ts --declaration --noEmit false --emitDeclarationOnly --outFile dist/types/global.d.ts",
+    "build": "vue-tsc && vite build && nr dts",
     "preview": "vite preview"
   },
   "dependencies": {

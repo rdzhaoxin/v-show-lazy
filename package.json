@@ -31,8 +31,8 @@
   ],
   "scripts": {
     "dev": "vite",
-    "dts": "vue-tsc src/index.ts --declaration --noEmit false --emitDeclarationOnly --outFile dist/types/global.d.ts",
-    "build": "vue-tsc && vite build && nr dts",
+    "gen_dts": "vue-tsc src/index.ts --declaration --noEmit false --emitDeclarationOnly --outFile dist/types/global.d.ts",
+    "build": "vue-tsc && vite build && nr gen_dts",
     "preview": "vite preview"
   },
   "dependencies": {

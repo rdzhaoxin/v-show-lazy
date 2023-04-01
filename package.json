@@ -1,6 +1,6 @@
 {
   "name": "v-show-lazy",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "v-show-lazy for vue",
   "type": "module",
   "repository": {
